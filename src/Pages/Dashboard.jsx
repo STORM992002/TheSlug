@@ -76,7 +76,7 @@ shortLink()
     <Alertmessage message={message} type={messageType} />
       <div
         className="w-full h-screen  bg-cover bg-center"
-        style={{ backgroundImage: "url('src/assets/image/badal.png')" }}
+        style={{ backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/theslugproject-bca3f.appspot.com/o/Frontend%2Fbadal.png?alt=media&token=7259fc0b-1846-4cae-ba8c-d249aecca6b9')" }}
       >
         <Navbar />
         <div className="flex flex-col  items-center w-full mt-40">
