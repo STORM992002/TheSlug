@@ -83,7 +83,7 @@ function handleSubmit(e) {
     <Alertmessage message={message} type={messageType}/>
       <div className='w-screen h-20'>
         <div className='h-full w-full flex flex-row justify-between items-center'>
-        <button onClick={()=>{navigate('/')}} className="hidden sm:block sm:w-2/5  md:w-2/12 ms-4"><img  src="src/assets/image/TheSlugProject.png" alt="logo" /></button>
+        <button onClick={()=>{navigate('/')}} className="hidden sm:block sm:w-2/5  md:w-2/12 ms-4"><img  src="https://firebasestorage.googleapis.com/v0/b/theslugproject-bca3f.appspot.com/o/Frontend%2FTheSlugProject.png?alt=media&token=de2de414-e668-4cfd-80b8-eb5c8760e7d4" alt="logo" /></button>
         <form onSubmit={handleSubmit} className="flex w-full me-5 ms-5 sm:w-4/12 text-white items-center relative">
                             <input onChange={(e)=>(setLink(e.target.value))}  className=" border-4 bg-[#353c4a5f] border-[#353C4A] rounded-full ps-10 py-3 w-full backdrop-blur  text-white placeholder:text-white placeholder:font-extralight focus:outline-none" type="url" placeholder="Enter the Link"  />
                             <IonIcon icon={linkOutline} className=" absolute start-3 text-2xl "/>
