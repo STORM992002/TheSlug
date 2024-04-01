@@ -21,7 +21,7 @@ const Navbar=()=>{
                                 :null
            
            } 
-            <button onClick={()=>{navigate('/')}} className="w-2/5  md:w-2/12 ms-4"><img  src="src/assets/image/TheSlugProject.png" alt="logo" /></button>
+            <button onClick={()=>{navigate('/')}} className="w-2/5  md:w-2/12 ms-4"><img  src="./src/assets/image/TheSlugProject.png" alt="logo" /></button>
            {/* <div className="hidden md:flex flex-row gap-3 text-[#C9CED6] font-medium text-lg"> */}
             {/* <button className="flex flex-row items-center gap-2"><IonIcon icon={logoInstagram} className="" style={{color:"#b7058a"}}/><p>Download</p></button> */}
             {/* <button className="flex flex-row items-center gap-2"><IonIcon icon={logoYoutube} className="" style={{color:"#bf211e"}}/><p>Download</p></button> */}
