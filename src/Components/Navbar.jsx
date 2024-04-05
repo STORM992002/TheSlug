@@ -18,9 +18,8 @@ const Navbar=()=>{
         <div className="w-full h-20 top-0  mt-0 sticky flex items-center justify-between backdrop-blur">
         
           { 
-          showDropdown === true?<Profiledropdown />
+          showDropdown === true?(<Profiledropdown />)
                                 :null
-           
            } 
             <button onClick={()=>{navigate('/')}} className="w-2/5 h-full  md:w-2/12 "><Lottie className="w-full h-full" animationData={animationData} alt="logo" /></button>
            {/* <div className="hidden md:flex flex-row gap-3 text-[#C9CED6] font-medium text-lg"> */}
